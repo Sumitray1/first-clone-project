@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 header {
-  background-color: rgb(239, 138, 138);
   padding: 15px;
   display: flex;
   justify-content: space-between;
@@ -15,14 +14,24 @@ ul {
 /* navigation  button */
 .first--list--content {
   /* margin-right: 10px; */
+  color: aliceblue;
   display: flex;
   gap: 20px;
 }
+.fa-facebook {
+  color: rgb(13, 13, 236);
+}
+
 .Second--list--content {
   display: flex;
   gap: 100px;
+  color: aliceblue;
+}
+.fa-house {
+  color: blue;
 }
 .Third--list--content {
+  color: aliceblue;
   display: flex;
   gap: 10px;
 }
