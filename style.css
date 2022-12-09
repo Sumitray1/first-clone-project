@@ -93,7 +93,7 @@ section {
   background-color: rgb(76, 77, 76);
   color: aliceblue;
   margin: 0 auto;
-  width: 780px;
+  /* width: 780px; */
   display: flex;
   margin-top: 23px;
   border-radius: 8px;
