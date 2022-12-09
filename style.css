@@ -7,6 +7,13 @@ header {
   padding: 15px;
   display: flex;
   justify-content: space-between;
+  background-color: rgb(60, 62, 64);
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  border-top: 0.5px solid rgb(87, 86, 86);
+  border-bottom: 0.5px solid rgb(87, 86, 86);
+  margin-bottom: 1px;
 }
 ul {
   list-style: none;
@@ -17,15 +24,16 @@ ul {
   color: aliceblue;
   display: flex;
   gap: 20px;
-}
-.fa-facebook {
-  color: rgb(13, 13, 236);
+  align-items: center;
+  align-content: center;
 }
 
 .Second--list--content {
   display: flex;
-  gap: 100px;
+  gap: 75px;
   color: aliceblue;
+  align-items: center;
+  align-content: center;
 }
 .fa-house {
   color: blue;
@@ -33,19 +41,39 @@ ul {
 .Third--list--content {
   color: aliceblue;
   display: flex;
-  gap: 10px;
+  gap: 22px;
+  align-items: center;
+  align-content: center;
+}
+/* icon settings */
+.fa-facebook {
+  color: rgb(13, 13, 236);
 }
 .search {
   border-radius: 5px;
   padding: 1px;
 }
+header ul i {
+  font-size: 19px;
+}
+/* starting from body */
 body {
   background-color: rgb(41, 36, 36);
 }
 /* defining content  */
-main {
+section {
   display: flex;
   background-color: aqua;
-  height: 100px;
   gap: 4px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.left--content {
+  background-color: bisque;
+}
+.middle--content {
+  background-color: aquamarine;
+}
+.right--content {
+  background-color: cadetblue;
 }
