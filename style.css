@@ -67,13 +67,13 @@ section {
   gap: 4px;
   justify-content: space-between;
   margin: 0 auto;
-  margin: 2px 10px;
 }
 /* .left--content of left side */
 .left--content {
   background-color: rgb(40, 40, 39);
   height: 900px;
   display: flex;
+  /* margin: 0 auto; */
 }
 .left-icon-name {
   color: aliceblue;
@@ -83,7 +83,9 @@ section {
 }
 /* .middle--content  */
 .middle--content {
-  background-color: aquamarine;
+  background-color: rgb(76, 77, 76);
+  color: aliceblue;
+  margin: 0 auto;
 }
 .right--content {
   background-color: cadetblue;
