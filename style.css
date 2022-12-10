@@ -15,9 +15,19 @@ header {
   border-bottom: 0.8px solid rgb(87, 86, 86);
   margin-bottom: 1px;
 }
+/* OVERALL DECLERATION FOR COMMONLY USED ITEM */
 ul {
   list-style: none;
 }
+.img-icon {
+  width: 20px;
+  border-radius: 50%;
+}
+.img-icon-2 {
+  width: 25px;
+  border-radius: 50%;
+}
+
 /* navigation  button */
 .first--list--content {
   /* margin-right: 10px; */
@@ -139,7 +149,7 @@ section {
 }
 .right-content-top {
   padding: 10px 10px;
-  border-bottom: 0.8px solid rgb(87, 86, 86);
+  border-bottom: 0.95px solid rgb(87, 86, 86);
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -152,4 +162,17 @@ section {
 .right-content-top-2-common {
   display: flex;
   gap: 8px;
+  align-items: center;
+}
+.right-content-below-top {
+  padding: 10px 10px;
+  border-bottom: 0.95px solid rgb(87, 86, 86);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.right-content-below-top-1 {
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }
