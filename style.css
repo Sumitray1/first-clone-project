@@ -25,7 +25,11 @@ ul {
 }
 .img-icon-2 {
   width: 25px;
-  border-radius: 50%;
+  border-radius: 55%;
+}
+.img-icon-3 {
+  width: 35px;
+  border-radius: 55%;
 }
 
 /* navigation  button */
@@ -180,4 +184,32 @@ section {
   display: flex;
   gap: 8px;
   align-items: center;
+}
+.right-content-third-top {
+  padding: 10px 10px;
+  /* border-bottom: 0.95px solid rgb(87, 86, 86); */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.right-content-third-top-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-content-third-top-contacts-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.right-content-third-top-chart-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 0.8px solid rgb(87, 86, 86);
+}
+.right-content-third-top-chart-list-img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
