@@ -140,6 +140,11 @@ section {
   /* padding: 10px; */
   gap: 210px;
 }
+.middle-top-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 /* middle top icon config */
 .Stories {
   color: blue;
