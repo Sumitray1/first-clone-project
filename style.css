@@ -94,9 +94,8 @@ section {
   height: 990px;
   display: flex;
   flex-direction: column;
-  margin-top: 23px;
-  border-radius: 8px;
-  align-items: left;
+  border-radius: 4px;
+  padding-top: 15px;
 }
 .left-first-container-list {
   padding: 10px 10px;
@@ -234,8 +233,8 @@ section {
   height: 990px;
   display: flex;
   flex-direction: column;
-  margin-top: 23px;
-  border-radius: 8px;
+  border-radius: 4px;
+  padding-top: 15px;
 }
 .right-content-top {
   padding: 10px 10px;
