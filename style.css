@@ -117,14 +117,13 @@ section {
   margin: 0 auto;
   width: 780px;
   display: flex;
-  margin-top: 23px;
+  padding: 20px 10px;
   border-radius: 8px;
   flex-direction: column;
+  gap: 15px;
   background-color: blue;
 }
 .middle-top-content {
-  /* width: 700px;
-  height: 200px; */
   border-radius: 8px;
   margin: 0 auto;
   justify-content: center;
@@ -137,7 +136,7 @@ section {
   align-items: center;
   font-size: 24px;
   flex-direction: row;
-  /* padding: 10px; */
+  padding: 10px;
   gap: 210px;
   border-bottom: 0.8px solid rgb(87, 86, 86);
 }
@@ -156,6 +155,40 @@ section {
   height: 153px;
   width: 112px;
   border-radius: 11px;
+}
+.middle-top-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(208, 120, 120);
+  border-radius: 7px;
+  padding: 10px;
+}
+.middle-top-post-box-up ul {
+  display: flex;
+  align-items: center;
+  border-bottom: 0.8px solid rgb(136, 76, 76);
+}
+.middle-top-post-box-down ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.middle-top-post-box-2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 10px;
+}
+.middle-last-post {
+  display: flex;
+  background-color: antiquewhite;
+  border-radius: 7px;
+}
+.middle-last-post ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 /* middle top icon config */
 .Stories {
