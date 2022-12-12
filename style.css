@@ -182,13 +182,24 @@ section {
 }
 .middle-last-post {
   display: flex;
-  background-color: antiquewhite;
+  flex-direction: column;
+  background-color: rgb(171, 110, 29);
   border-radius: 7px;
+  padding: 10px;
+  gap: 10px;
 }
 .middle-last-post ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.middle-last-post-heading {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.fb-post-img {
+  width: 730px;
 }
 /* middle top icon config */
 .Stories {
