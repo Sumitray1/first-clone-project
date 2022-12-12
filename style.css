@@ -201,6 +201,19 @@ section {
 .fb-post-img {
   width: 730px;
 }
+.post-like-number {
+  padding-left: 20px;
+}
+.post-react {
+  border-top: 0.8px solid rgb(136, 76, 76);
+  padding: 8px 20px;
+  align-items: center;
+}
+.post-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 /* middle top icon config */
 .Stories {
   color: blue;
