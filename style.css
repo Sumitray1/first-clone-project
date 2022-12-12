@@ -31,6 +31,9 @@ ul {
   width: 35px;
   border-radius: 55%;
 }
+.story-img {
+  border: 3px solid rgb(0, 0, 255);
+}
 
 /* navigation  button */
 .first--list--content {
@@ -151,10 +154,14 @@ section {
   padding: 15px 0px;
 }
 .middle-story {
-  background-color: aqua;
+  background-color: rgb(111, 196, 196);
   height: 153px;
   width: 112px;
   border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 7px 10px;
 }
 .middle-top-post {
   display: flex;
@@ -281,8 +288,20 @@ section {
   flex-direction: column;
   gap: 20px;
   border-bottom: 0.8px solid rgb(87, 86, 86);
+  padding-bottom: 20px;
 }
 .right-content-third-top-chart-list-img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.group-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 10px;
+}
+.group-chart-list {
   display: flex;
   align-items: center;
   gap: 10px;
