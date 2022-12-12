@@ -75,15 +75,14 @@ header ul i {
 }
 /* starting from body */
 body {
-  background-color: rgb(41, 36, 36);
+  background-color: rgb(76, 77, 76);
 }
 /* defining content  */
 section {
   display: flex;
-  background-color: rgb(72, 74, 74);
+  background-color: rgb(76, 77, 76);
   justify-content: space-between;
   margin: 0 auto;
-  background-color: brown;
 }
 /* .left--content of left side */
 .left--content {
@@ -123,13 +122,12 @@ section {
   border-radius: 8px;
   flex-direction: column;
   gap: 15px;
-  background-color: blue;
 }
 .middle-top-content {
   border-radius: 8px;
   margin: 0 auto;
   justify-content: center;
-  background-color: aquamarine;
+  background-color: rgb(60, 62, 64);
 }
 .middle-content-for-top-icon {
   display: flex;
@@ -166,7 +164,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: rgb(208, 120, 120);
+  background-color: rgb(60, 62, 64);
   border-radius: 7px;
   padding: 10px;
 }
@@ -189,7 +187,7 @@ section {
 .middle-last-post {
   display: flex;
   flex-direction: column;
-  background-color: rgb(171, 110, 29);
+  background-color: rgb(60, 62, 64);
   border-radius: 7px;
   padding: 10px;
   gap: 10px;
@@ -220,9 +218,17 @@ section {
   align-items: center;
   gap: 10px;
 }
+
 /* middle top icon config */
 .Stories {
   color: blue;
+}
+.post {
+  width: 41rem;
+  padding: 4px;
+  border-radius: 11px;
+  background-color: rgb(76, 77, 76);
+  text-align: center;
 }
 /* RIGHT CONTENT */
 .right--content {
